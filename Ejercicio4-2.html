@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 4-2 Formulario</title>
+    <meta charset="utf-8" />
+    <meta name="autor" content="Rafael Cáceres Merino">
+    <meta name="copyright" content="Rafael Cáceres Merino">
+    <meta name="description" content="Ejercicio 4-2 Formulario">
+	<meta name="date" content="7 de Noviembre del 2024">
+</head>
+<body>
+	<h2>INDUSTRIAS ACME. FORMULARIO DE PEDIDO</h2>
+	<form id="INDUSTRIAS ACME. FORMULARIO DE PEDIDO" action="mailto:rafcacmer@alu.edu.gva.es" method="GET">
+		<p>
+			<h4>Datos del Cliente:</h4>
+				Correo Electrónico <input type="text" name="mail" value=""> 
+			<br />
+				Contraseña <input type="password" name="pass">
+			<br />
+				(Longitud mínima 6 caracteres)
+			<br />
+				Tipo de Cliente<input type="radio" name="cliente" value="p" checked>Particular
+							   <input type="radio" name="cliente" value="a">Asociación
+							   <input type="radio" name="cliente" value="e">Empresa
+		</p>	
+		
+		<p>
+			<div><b>Datos de productos:</b></div>
+			<div>
+				<select name="productos" multiple size="5">
+					<option value="Oro">AR001 Oro Reluciente</option>
+					<option value="Plata">AR002 Plata Pulida</option>
+					<option value="Bronce">AR003 Bronce Reforzado</option>
+					<option value="Escudo">EX001 Escudo</option>
+					<option value="Invisible">EX002 Invisibilidad</option>
+				</select>
+			</div>	
+		</p>
+		
+		<p>
+			<h4>Datos del envío:</h4>
+				Dirección<br /><input type="text" name="dir" size="35">
+			<br />
+				Ciudad<br /><input type="text" name="city" size="18"> Código Postal <input type="text" name="cp" size="5"> 
+		</p>
+
+		<p>
+			<h4>Datos bancarios:</h4>
+				Nombre de la Entidad<br /><input type="text" name="banco" size="18">
+			<br />
+				Nº de Cuenta<br /><input type="text" name="cuenta" size="18">
+		</p>	
+		
+		<p>
+			<h4>Información de interés:</h4>
+				<div>Comentarios</div>
+					<textarea name="coment" rows="4" cols="50">Introduce un comentario ...</textarea>
+			<br />
+				<input type="checkbox" name="publi" value="p" checked>Acepto recibir información publicitaria 
+		</p>
+		
+		<p>
+				<input type="submit" value="Enviar pedido">
+				<input type="submit" value="Cancelar">
+		</p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 4-3 Formulario</title>
+    <meta charset="utf-8" />
+    <meta name="autor" content="Rafael Cáceres Merino">
+    <meta name="copyright" content="Rafael Cáceres Merino">
+    <meta name="description" content="Ejercicio 4-3 Formulario">
+	<meta name="date" content="8 de Noviembre del 2024">
+</head>
+<body>
+	<h2>Encuesta al profesorado</h2>
+	<form id="Encuesta al profesorado" action="mailto:rafcacmer@alu.edu.gva.es" method="GET">
+		<p>
+			<h4>Por favor, si es usted docente responda a las cuestiones:</h4>
+				<fieldset width="300">
+					<legend>1.Información personal</legend>	
+					<p>Apellidos y nombre:<input type="text" name="nombrey" size="50"></p>
+					<p>Sexo:<input type="radio" name="sex" value="h" checked>hombre<input type="radio" name="sex" value="m">mujer</p>
+					<p>Teléfono<input type="text" name="tlf" size="7"> E-mail:<input type="text" name="correo" size="10"></p>
+				</fieldset>	
+		</p>
+
+		<p>
+				<fieldset width="300">
+					<legend>2.Datos profesionales</legend>
+					<p>Centro de trabajo:<input type="text" name="trabajo" size="20"> Localidad:<input type="text" name="local" size="20"></p>
+					<div>Especialidad:</div>
+					<div>
+						<select name="asignatura" multiple size="4">
+							<option value="lengua">Lengua y literatura</option>
+							<option value="mates">Matemáticas</option>
+							<option value="infor">Informática</option>
+							<option value="soci"> Geografía e história</option>
+						</select>
+					</div>
+				</fieldset>
+		</p>
+		
+		<p>
+				<fieldset width="300">
+					<legend>3.Por favor, facilitanos la siguiente información:</legend>
+					<p>
+						¿Como llegó hasta aqui?:
+						<select id="¿como?">
+							<option value="B" selected="selected">Desde un buscador</option>
+							<option value="C">Un compañero me dijo</option>
+							<option value="R">Un rasca de Navidad</option>
+							<option value="A">En autobús</option>
+						</select>
+						
+						<div>comentarios:</div>
+							<textarea name="coment" rows="4" cols="50"></textarea><br />
+						¿Desearia recibir más información sobre...?<br />
+						<input type="checkbox" name="audiovid" value="m">Material audiovisual<br />
+						<input type="checkbox" name="texto" value="t" checked>Textos electrónicos<br />
+						<input type="checkbox" name="libro" value="l" checked>Libros de texto<br />
+					</p>	
+					
+				</fieldset>
+		</p>	
+	</form>
+</body>
+</html>
