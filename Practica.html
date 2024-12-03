@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="practica examen">
+	<meta name="keywords" content="practica, examen">
+	<meta name="author" content="Rafa Cáceres merino">
+	<meta name="viewport" content="width=device-width, initial-escale=1.0">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="es">
+	<meta name="copyright" content="Rafa Cáceres Merino © 2024">
+	<link rel="stylesheet" type="text/css" href="Practica.css">
+	<title>Practica examen de Lenguajes de Marcas 2024</title>
+</head>
+<body>
+	<header class="encabezado">
+		<h1>Formulario de encuesta sobre la noticia del lanzamiento de Windows 12</h1>
+	</header>
+	<form id="Encuesta windows 12" action="mailto:rafcacmer@alu.edu.gva.es" method="GET">
+			<p>
+				<fieldset class="uno">
+					<legend class="opinas"><h3>1. ¿Que opinas del lanzamiento de Windows 12?</h3></legend>
+					<input class="radio" type="radio"> Me parece un gran paso adelante para Microsoft<br>
+					<input class="radio" type="radio"> Me parece un paso necesario, pero no es muy innovador<br>
+					<input class="radio" type="radio"> No me interesa este tema<br>
+				</fieldset>
+			</p>
+			<p>
+				<fieldset class="dos">
+					<legend class="crees"><h3>2. ¿Crees que Windows 12 tendrá éxito?</h3></legend>
+					<select id="container" style="border: 2px solid black;">
+						<option value="A">Sí, creo que será un exito comercial</option>
+						<option value="B" selected="selected">No creo que tenga mucho éxito</option>
+						<option value="C">No me interesa ese tema</option>
+					</select>
+				</fieldset>
+			</p>
+			<p>
+				<fieldset class="tres">
+					<legend class="gusta"><h3>3. ¿Que le gustaria ver en Windows 13?</h3></legend>
+					<input type="text" class="coment" name="coment" placeholder="Escribe tu pregunta">
+				</fieldset>
+			</p>
+			<p>
+				<fieldset class="cuatro">
+				<input type="checkbox" name="enviar" value="e">Acepto enviar este examen
+				</fieldset>
+			</p>
+			<p>
+				<input type="submit" class="submit" value="Enviar">
+				<input type="reset" class="reset" value="Borrar">
+			</p>
+		</div>
+	</form>
+</body>
+</html>

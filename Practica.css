@@ -1,0 +1,104 @@
+body{
+	font-family: Arial, Sans-Serif;
+}
+.encabezado{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #79a9ff;
+	font: Roboto, Sans-Serif;
+}
+
+.uno{
+	background-color: #c8dcff;
+	margin: 30px;
+	border-radius: 5px;
+	width: 95%;
+	
+	
+}
+
+.dos{
+	background-color: #c8dcff;
+	margin: 30px;
+	border-radius: 5px;
+	width: 95%;
+	
+}
+
+.tres{
+	background-color: #c8dcff;
+	margin: 30px;
+	border-radius: 5px;
+	width: 95%;
+}
+
+.cuatro{
+	background-color: #c8dcff;
+	margin: 30px;
+	border-radius: 5px;
+	width: 95%;
+}
+
+.opinas{
+	font-size: 20px;
+	color: #ffffff; 
+	background-color: #70a9ff;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+
+.crees{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #70a9ff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.gusta{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #70a9ff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.radio{
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+#container{
+	width: 50%;
+	border-radius: 5px;
+	background-color: #f5f9ff;
+	padding-right: 1em;
+}
+
+.coment{
+	width: 95%;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.submit{
+	width: 25%;
+	height: 40px;
+	margin: 20px;
+	background-color: #c8dcff;
+	color: blue;
+	border-radius: 5px;
+}
+
+.reset{
+	width: 25%;
+	height: 40px;
+	margin: 20px;
+	background-color: #c8dcff;
+	color: blue;
+	border-radius: 5px;
+}
